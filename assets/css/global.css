@@ -2,11 +2,13 @@ body {
   background: url(../img/groovepaper.png);
   color: #c0c0c0;
   text-shadow: 1px 1px 0px white;
+  -webkit-text-size-adjust: none;
 }
 
 p {
   padding: 2em 0;
   text-align: center;
+  width: 100%;
 }
 
 p a {
@@ -70,7 +72,7 @@ h1 a:hover {
 
 .wrap {
   margin: 0 auto;
-  width: 900px;
+  width: 874px;
 }
 
 #carousel_container {
@@ -145,8 +147,9 @@ h1 a:hover {
 #left_scroll,#right_scroll {
   float: left;
   font-size: 40px;
+  font-weight: bolder;
   margin: 0;
-  padding: 60px 20px 0 20px;
+  padding: 56px 20px 0 20px;
   height: 100px;
 }
 
